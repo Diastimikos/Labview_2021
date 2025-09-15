@@ -3,4 +3,4 @@
 **Controls:** Thermometer Control, Tank Control, Switch1, Switch2, Stop
 **Indicators:** Thermometer, Tank, Meter, LED1, LED2
 **Concepts:** While Loop, Controls, Indicators
-**Screenshots:** (../Images/01.Evd.1_Ask.3.png)
+![Exercise 1 Screenshot](../Images/01.Evd.1_Ask.3.png) 
