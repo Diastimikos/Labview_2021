@@ -1,0 +1,30 @@
+### Project: Tank Values Logger to Excel
+
+**Description:**  
+The program demonstrates real-time logging of tank values into an Excel file using LabVIEW:  
+- The While loop runs continuously until the Stop Button is pressed or the number of columns entered is equal to 0.  
+- The user provides the Excel file path (via Block Diagram) where the results will be stored.  
+- The user sets the Tank values using a Knob (0–1000).  
+- The tank values are (after multiplied by 50):  
+  - Displayed digitally 
+  - Displayed graphically 
+- Each value is:  
+  - Added to an array using Build Array  
+  - Inserted into the array using Insert Into Array, in the next position from the previous value  
+- A Wait (1000 ms) sets the delay between iterations.  
+
+**Controls:**  
+- Knob (0–1000) – selects Tank value  
+- Stop Button  
+  
+**Indicators:**  
+- Numeric indicator – current Tank value  
+- Graphical indicator – scaled Tank value  
+- Array – stores sequential tank values  
+
+**Concepts:**  
+- While Loops
+- Array manipulation (Build Array, Insert Into Array)  
+- Scaling of values  
+- Comparisons and logical operations  
+- Case Structures 

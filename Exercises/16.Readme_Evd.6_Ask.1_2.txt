@@ -1,0 +1,35 @@
+### Project: Array Operations & Average Calculation
+
+**Description:**  
+The program consists of **two parts**:
+
+1. **Array Concatenation Demonstration**  
+   - Two numeric arrays are combined using the Build Array function.  
+   - The result is displayed twice:  
+     - With Concatenate Inputs = ON → produces a single 1D array.  
+     - With Concatenate Inputs = OFF → produces a 2D array (each input becomes a row).  
+
+2. **Average of Array Elements**  
+   - The program runs inside a While Loop until all the elements of the array are accessed.
+   - The loop takes an input array and processes its elements one by one.  
+   - On the first iteration, the first element is added to a constant 0, and the result is stored in a Shift Register.  
+   - On subsequent iterations, each array element is added to the accumulated value stored in the Shift Register.  
+   - When all elements have been processed, the total sum is divided by the number of iterations (equal to the array length).  
+   - The Average value of the array elements is displayed.  
+
+**Controls:**  
+- Two Numeric Arrays (input for concatenation)  
+- One Numeric Array (input for average calculation)  
+- Stop Button  
+
+**Indicators:**  
+- Concatenated Array (Concatenate ON result)  
+- 2D Array (Concatenate OFF result)  
+- Numeric Indicator: Average Value  
+
+**Concepts:**  
+- Build Array (1D vs 2D, Concatenate option)  
+- While Loop Iterations  
+- Shift Registers for cumulative sum  
+- Array processing element by element  
+- Average Calculation (Σ elements ÷ number of elements)  

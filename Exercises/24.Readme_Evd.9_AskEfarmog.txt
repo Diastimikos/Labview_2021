@@ -1,0 +1,21 @@
+### Project:
+LabVIEW 3D & Waveform Graph Visualization
+
+**Description:**  
+This LabVIEW project generates and visualizes data based on user-defined frequency and amplitude values. The data is displayed in both a 3D Graph and a Waveform Graph, allowing the user to observe how input parameters affect the plotted results. The application also provides functionality to export the 3D Graph as a JPEG image.
+
+**Controls:**  
+- Frequency (numeric control): Sets the frequency of the generated signal.  
+- Amplitude (numeric control): Sets the amplitude of the generated signal.  
+- OK Button: Starts the data generation and plotting process.  
+- STOP Button: Stops the execution of the program.  
+
+**Indicators:**  
+- 3D Graph: Displays a surface plot of the generated signal data.  
+- Waveform Graph: Displays the waveform corresponding to the signal values.  
+
+**Concepts:**  
+- Signal generation using frequency and amplitude parameters.  
+- Data visualization in 3D surface plots and 2D waveform graphs.  
+- Image export from LabVIEW graphs to external files (JPEG format).  
+- Use of loops and control logic to manage execution flow.  

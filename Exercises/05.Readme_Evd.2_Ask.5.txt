@@ -1,0 +1,29 @@
+### Project: Number Comparison with LED Indicators
+
+**Description:**  
+This VI compares two numeric inputs (**A** and **B**, via arrows or keyboard, allowing integers and decimals) and displays the result on three LED indicators:  
+- **A wins**  
+- **B wins**  
+- **Tie**  
+A **Switch:** allows the user to select the input mode:  
+- **Manual mode** → the user enters the numbers directly via numeric controls  
+- **Random mode** → the VI generates random numbers for A and B  
+
+**Controls:**  
+- A (numeric input)  
+- B (numeric input)  
+- Switch (Manual / Random selection)  
+
+**Indicators:**  
+- LED1 → A wins  
+- LED2 → B wins  
+- LED3 → Tie  
+
+**Concepts:**  
+- Numeric Controls & Indicators  
+- Boolean Indicators (LEDs)  
+- Comparison Functions (Greater, Less, Equal)  
+- Conditional logic (Case Structure or Select Function)  
+- Random Number Generation  
+
+

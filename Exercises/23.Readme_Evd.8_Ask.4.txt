@@ -1,0 +1,21 @@
+### Project: Engine Status Monitoring and Saving
+
+**Description:**  
+The program continuously monitors the status of three engines inside a While Loop until the Stop button is pressed. When Stop is pressed, the final results are saved into an `.xls` file at the path specified in the Block Diagram.  
+
+**Controls:**  
+- Engine 1 (LED) → ON/OFF state.  
+- Engine 2 (LED) → ON/OFF state.  
+- Engine 3 (LED) → ON/OFF state.  
+- Stop Button → ends program execution and triggers file saving.  
+
+**Indicators:**  
+- Live Engine Status (1D array, 3 elements) → shows real-time ON/OFF values of the engines.  
+- Final State to be Saved (1D array, 3 elements) → shows the last recorded state of the engines when Stop is pressed.  
+
+**Concepts:**  
+- While Loop with Stop control.  
+- Boolean to (0,1) conversion for LED states.  
+- Build Array to collect engine status values.  
+- Build Path to specify the storage location.  
+- File saving into `.xls` format.  

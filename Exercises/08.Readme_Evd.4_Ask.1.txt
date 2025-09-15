@@ -1,0 +1,27 @@
+### Project: Random Temperature Simulation
+
+**Description:**  
+This VI simulates a temperature measurement process using random values.  
+The program runs continuously inside a **While Loop** and stops only when the **Stop Button** is pressed.  
+It generates a random number (0–1), multiplies it by 200, and displays the result on a thermometer indicator scaled from 0 to 200.  
+
+**Features:**  
+- **Temperature Scale Selection:** Switch to choose between Celsius (°C) or Fahrenheit (°F).  
+- **Delay Time (s):** Adjustable delay (manual via arrows or keyboard) controls the update rate of the loop.  
+- **Random Value Generation:** Random number (0–1) × 200 simulates temperature measurement.  
+- **Thermometer Indicator:** Displays the resulting value graphically (range 0–200).  
+
+**Controls:**  
+- Temperature Scale Switch (°C / °F)  
+- Delay Time (s)  
+- Stop Button  
+
+**Indicators:**  
+- Thermometer (0–200 range)  
+
+**Concepts:**  
+- While Loop with Stop Condition  
+- Random Number Function (0–1)  
+- Numeric Multiplication / Scaling  
+- Case or Select Function for °C ↔ °F scale selection  
+- Timing Control with Time Delay (s)

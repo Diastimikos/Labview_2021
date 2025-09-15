@@ -1,0 +1,29 @@
+### Project: Slide-Controlled Thermometer with Repetition Tracking
+
+**Description:**  
+The program demonstrates repetitive data acquisition and visualization inside a While Loop:  
+- The loop runs continuously until either of the two Stop Buttons is pressed.  
+- A Time Delay of 1 second is used between iterations.  
+- The user controls a Slide (0–10), which is scaled and displayed on a Thermometer (0–100).  
+- An Array "Repetition value per 1 sec" records the slide value for each iteration.  
+- Two additional indicators display:  
+  - Number of Table Elements – shows how many values have been recorded in the array.  
+  - Average Temperature – calculates the mean of all recorded values.  
+
+**Controls:**  
+- Slide (0–10) – selects the value to display.  
+- Stop Button 1 & Stop Button 2 – stops the While Loop.  
+
+**Indicators:**  
+- Thermometer (0–100) – graphical display of the current slide value.  
+- Repetition Array – logs slide values per iteration.  
+- Number of Table Elements – shows how many repetitions have been recorded.  
+- Average Temperature – shows the mean of all recorded values.  
+
+**Concepts:**  
+- While Loops with multiple Stop conditions  
+- Time Delay (1 second)  
+- Slide Control & Scaling  
+- Graphical Indicators (Thermometer)  
+- Arrays for storing repeated measurements  
+- Array Size & Average Calculation  

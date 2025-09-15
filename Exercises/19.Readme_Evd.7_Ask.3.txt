@@ -1,0 +1,30 @@
+### Project: Username & Password Verification
+
+**Description:**  
+The program demonstrates user authentication inside a While Loop:  
+- The loop runs continuously until the Stop Button is pressed.  
+- A 3×2 array stores valid usernames (first column) and passwords (second column).  
+- The user inputs:  
+  - Username (string input)  
+  - Password (masked string input)  
+- The result of the verification is displayed in a Result indicator.  
+- A Case Structure determines the message based on the input:  
+  - Correct Username & Password: displays `"Logged"`  
+  - Incorrect Username: displays `"Wrong Username"`  
+  - Correct Username, Incorrect Password: displays `"Wrong Password"`  
+  - Both Incorrect: displays `"Wrong Username"`  
+
+**Controls:**  
+- Username (string input)  
+- Password (masked string input)  
+- Stop Button  
+
+**Indicators:**  
+- Result – displays authentication messages  
+
+**Concepts:**  
+- Search 1D Array (to find username/password)  
+- Comparison functions  
+- Logical gates
+- Selectors (conditional selection)  
+- Case Structures  

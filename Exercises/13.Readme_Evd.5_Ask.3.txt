@@ -1,0 +1,33 @@
+### Project: Multi-Operation Calculator
+
+**Description:**  
+The VI allows the user to input four numbers (**A, B, C, D**) and perform one of three operations selected via a numeric control **Number Operations**:  
+- 0 – Addition: all numbers are added together and the Addition LED lights up.  
+- 1 – Multiplication: all numbers are multiplied together and the Multiplication LED lights up.  
+- 2 – Average: the average of the numbers is calculated and the Average LED lights up.  
+- 3 – Default: no calculation is performed.  
+
+For operations 0, 1, and 2, the message "Calculations" is displayed.  
+For operation 3, the message "No Calculations" is displayed.  
+
+The VI runs inside a While Loop and continuously updates the result until the Stop Button is pressed.
+
+**Controls:**  
+- A, B, C, D – numeric inputs for the numbers.  
+- Number Operations – numeric control to select the operation (0-3).  
+- Stop Button – stops the While Loop and terminates the VI.
+
+**Indicators:**  
+- Result – shows the output of the selected operation.  
+- Addition LED – lights up when Addition is performed.  
+- Multiplication LED – lights up when Multiplication is performed.  
+- Average LED – lights up when Average is performed.  
+- Message Display** – shows "Calculations" or "No Calculations" based on operation.
+
+**Concepts:**  
+- While Loops & Loop Iteration  
+- Numeric Controls & Indicators  
+- Case Structures for multiple operations  
+- Conditional Operations (Addition, Multiplication, Average)  
+- Boolean Indicators (LEDs)  
+- Dynamic messaging based on operation

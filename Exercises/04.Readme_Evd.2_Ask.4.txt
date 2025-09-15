@@ -1,0 +1,26 @@
+### Project: Numeric Calculations with X, Y, Z
+
+**Description:**  
+This VI takes three numeric inputs (**X, Y, Z**, via arrows or keyboard, allowing integers and decimals) and calculates multiple outputs using basic arithmetic and numeric functions. The results are displayed in numeric indicators for easy visualization.
+Note: The VI currently runs with Run Continuously for demonstration purposes.
+
+**Controls:**  
+- X (numeric input)  
+- Y (numeric input)  
+- Z (numeric input)  
+
+**Calculated Outputs / Indicators:**  
+1. X + Y  
+2. 1 / X  
+3. 1 / 7  
+4. Y / X  
+5. X^2 + Y^Y  
+6. Absolute value of [X + (Y^4)]  
+7. (X * Y * Z) / 10  
+
+**Concepts:**  
+- Numeric Controls & Indicators  
+- Numeric Functions: Add, Divide, Multiply, Absolute Value  
+- Basic arithmetic operations  
+- Order of operations  
+
