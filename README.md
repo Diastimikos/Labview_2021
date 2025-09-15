@@ -7,3 +7,6 @@ This repository contains all semester exercises from the course "LabVIEW Softwar
 - Case Structures
 - Save data
 - Graphs
+
+## Images Folder
+Contains screenshots of each exercise's Front Panel and Block Diagram
