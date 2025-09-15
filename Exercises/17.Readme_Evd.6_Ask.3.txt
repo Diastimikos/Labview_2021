@@ -1,0 +1,27 @@
+### Project: Nested For Loops with Random Arrays
+
+**Description:**  
+The program demonstrates the use of **nested For Loops** in LabVIEW to generate and process arrays.  
+- Both loops (outer and inner) run with **N = 5 iterations**, effectively building 2D arrays.  
+- Inside the inner loop, two random numbers **A** and **B** are generated in the range [0, 1].  
+- The values are stored and displayed as follows:  
+  - **Array A [6×6]:** Contains all generated A values.  
+  - **Array B [6×6]:** Contains all generated B values.  
+  - **Array C [11×6]:** Combines A and B into one array.
+  - **Array D [6×6]:** Computed as D = A + 1 (each element of A increased by 1).  
+
+**Controls:**  
+- No manual controls (arrays are generated automatically).  
+
+**Indicators:**  
+- 2D Array A (6×6 random numbers between 0–1)  
+- 2D Array B (6×6 random numbers between 0–1)  
+- 2D Array C (11×6 combined A & B values)  
+- 2D Array D (A + 1 transformation)  
+
+**Concepts:**  
+- Nested For Loops (outer + inner loop iteration)  
+- Random Number Generation in [0,1]  
+- 2D Array construction with auto-indexing  
+- Array arithmetic (element-wise addition)  
+- Data visualization with arrays

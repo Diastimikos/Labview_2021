@@ -1,0 +1,65 @@
+### Project: Arrays, Integer Conversion, Waveform, and Path Input
+
+**Description:**  
+This VI demonstrates several LabVIEW concepts including array mapping, numeric conversions, waveform handling, and file path selection.
+Note: The VI currently runs with Run Continuously for demonstration purposes.
+
+**Features:**
+
+1. **Integer Conversion**  
+   - An **Integer Control** value is shown in:  
+     - A numeric indicator  
+     - A **hexadecimal string** (converted via Number to Hexadecimal String function)  
+   - The string output is simultaneously converted back to a number using **Hexadecimal String to Number** function and displayed numerically.
+
+2. **2D Switch Array → 2D LED Array**  
+   - Each switch in the 2D array controls the corresponding LED.  
+   - Front panel display only shows a subset if the array exceeds display limits (furthest rows/columns are discarded).  
+   - Indexing starts at 0 and goes up to the number of rows/columns.  
+   - Underlying data is not modified; only the visible portion changes.
+
+3. **1D Numeric Array → 1D Meter Array**  
+   - Each numeric input maps to a Meter indicator.  
+   - Similar display behavior as the 2D arrays.
+
+4. **Waveform Input → Waveform Output**  
+   - A **Waveform Control** accepts input signal data.  
+   - A **Waveform Indicator** displays the output signal.  
+   - Can be used with arrays or live data.
+
+5. **Path Input**  
+   - A **Path Control** allows the user to select a file or directory.  
+   - The selected path is displayed on the front panel.
+
+---
+
+**Controls:**  
+- Integer Control
+- 2D Switch Array  
+- 1D Numeric Array  
+- Waveform Control  
+- Path Control  
+
+**Indicators:**  
+- Numeric Indicator (for Integer)  
+- String Indicator (Hexadecimal output)  
+- Numeric Indicator (converted back from Hex)  
+- 2D LED Array  
+- 1D Meter Array  
+- Waveform Indicator  
+- Path Indicator  
+
+---
+
+**Concepts:**  
+- Integer ↔ Hexadecimal String Conversion  
+- Arrays of Controls and Indicators (1D and 2D)  
+- Boolean Logic for LEDs  
+- Numeric Indicators and Meters  
+- Waveform Controls and Indicators  
+- File Path Input Handling  
+
+---
+
+**Screenshots:**  
+

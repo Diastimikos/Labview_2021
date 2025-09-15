@@ -1,0 +1,5 @@
+### Project: Thermometer & Tank Control
+**Description:** Controls temperature and tank level with live indicators. Two switches control LEDs. Stop button halts the process.
+**Controls:** Thermometer Control, Tank Control, Switch1, Switch2, Stop
+**Indicators:** Thermometer, Tank, Meter, LED1, LED2
+**Concepts:** While Loop, Controls, Indicators

@@ -1,0 +1,31 @@
+### Project:
+LabVIEW XY Graph, Waveform Chart & Data Logging
+
+**Description:**  
+This LabVIEW project demonstrates real-time data acquisition, visualization, and storage. It plots signals on both an **XY Graph** and a **Waveform Chart**, manages timing with elapsed time counters and LED toggling, and allows exporting acquired data into an Excel (.xls) file for further analysis. The program integrates multiple control and stop conditions to ensure safe execution flow.
+
+**Controls:** 
+- **A, B (numeric controls):** User inputs for comparison operations.  
+- **File Path (string input):** Specifies the location where the data will be saved (Excel file).  
+- **Main Stop Button:** Stops the entire execution.  
+- **Stop Graph Button:** Stops only the graph plotting process.  
+- **LED Stop Button:** Controls LED toggle stop.  
+
+**Indicators:**   
+- **Elapsed Time (s / ms):** Displays the running elapsed time in seconds and milliseconds.  
+- **XY Graph:** Plots data points dynamically.  
+- **Waveform Chart:** Displays time-based signals continuously.  
+- **Transposed Array:** Shows processed data in array format.  
+- **String Indicator:** Displays comparison result of A and B (e.g., A=B).  
+- **Main Stop Pressed LED:** Visual indicator showing stop condition.  
+- **Current Time:** Displays system timestamp (DD/MM/YYYY).  
+
+**Concepts:**  
+- Real-time plotting with **XY Graphs** and **Waveform Charts**.  
+- **Elapsed Time measurement** in multiple units (s/ms).  
+- Conditional logic with numeric comparison (A = B).  
+- **File I/O operations**: exporting data to Excel (.xls).  
+- **Event-driven stop controls** (separate stop buttons for main loop, graph, LED).  
+- Handling and displaying system time in the UI.  
+
+**Screenshots:**  
