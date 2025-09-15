@@ -1,7 +1,8 @@
 # LabVIEW 2021 Exercises
-This repository contains all semester exercises from the course "LabVIEW Software as a Tool for Applications". Each folder corresponds to a separate exercise with VI files, Front Panel and Block Diagram screenshots, and brief descriptions.
+This repository contains exercises from the course “LabVIEW Software as a Tool for Applications.”
 
 ## Exercises
+The Exercises folder includes the .vi files for each exercise along with a supplementary README.
 - Μathematical operations - Comparisons
 - Loops
 - Case Structures
@@ -9,4 +10,4 @@ This repository contains all semester exercises from the course "LabVIEW Softwar
 - Graphs
 
 ## Images Folder
-Contains screenshots of each exercise's Front Panel and Block Diagram
+Contains screenshots of each exercise's Front Panel and Block Diagram.
